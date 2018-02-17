@@ -54,12 +54,14 @@ h3 {
   font-style: italic; }
 
 .photo {
+  display: -ms-flexbox;
   display: flex;
   width: 100%; }
 
 .photo img {
   margin: 50px auto;
   height: 350px;
-  object-fit: cover; }
+  -o-object-fit: cover;
+     object-fit: cover; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
