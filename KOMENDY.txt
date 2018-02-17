@@ -7,3 +7,5 @@ node_modules/.bin/autoprefixer-cli -o css/style.prefixed.css css/style.css
 #nu-html-checker:
 node_modules/.bin/nu-html-checker index.html
 
+#Remove this Warn    npm WARN : invalid config loglevel="notice"
+npm config set loglevel warn
