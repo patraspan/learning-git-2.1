@@ -4,7 +4,7 @@ body { font-family: 'Raleway', sans-serif; background-color: #95a5a6; color: #2c
 strong { font-weight: 600; }
 
 /*header*/
-header { height: 40vh; padding: 30px; background-image: url("https://images.pexels.com/photos/169978/pexels-photo-169978.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"); background-repeat: no-repeat; background-position: center; background-size: cover; position: relative; opacity: 0.5; }
+header { height: 60vh; padding: 30px; background-image: url("https://images.pexels.com/photos/169978/pexels-photo-169978.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"); background-repeat: no-repeat; background-position: center; background-size: cover; position: relative; opacity: 0.2; }
 
 header h1 { font-weight: 600; text-transform: uppercase; font-size: 56px; line-height: 80px; text-align: center; color: #ffc048; text-shadow: 3px 3px 3px #000; }
 
@@ -20,8 +20,6 @@ h3 { font-size: 1.5em; text-align: center; font-weight: 300; font-style: italic;
 .photo { display: -ms-flexbox; display: flex; width: 100%; }
 
 .photo img { margin: 50px auto; height: 350px; -o-object-fit: cover; object-fit: cover; }
-
-.dev { display: -ms-grid; display: grid; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
 .test { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 
